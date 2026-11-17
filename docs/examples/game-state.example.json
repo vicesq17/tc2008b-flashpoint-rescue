@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1",
+  "turn": 0,
+  "agents": [
+    {"id": 1, "x": 2, "y": 3}
+  ],
+  "rescued": 0,
+  "lost": 0,
+  "damage": 0,
+  "finished": false
+}
