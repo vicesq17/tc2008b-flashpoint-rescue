@@ -1,24 +1,11 @@
-## ¿Qué cambia y por qué?
+## Cambios
 
-<!-- Describir el problema y el resultado esperado. -->
+<!-- Explicar brevemente qué se hizo y para qué. -->
 
-## ¿Cómo se prueba?
+## Revisión
 
-<!-- Pasos, resultados y limitaciones. Añadir capturas si hay cambios visuales. -->
+<!-- Indicar cómo se comprobó el cambio; agregar captura si ayuda. -->
 
-## Tipo de cambio
-
-- [ ] Documentación u organización
-- [ ] Nueva funcionalidad
-- [ ] Corrección
-- [ ] Cambio incompatible
-
-## Checklist
-
-- [ ] La rama destino es correcta: feature -> pre-release o pre-release -> main.
-- [ ] Actualicé `CHANGELOG.md` si el cambio es relevante.
-- [ ] Documenté las pruebas realizadas y las pendientes.
-- [ ] Coordiné cambios a escenas/prefabs y conservé los `.meta` correspondientes.
-- [ ] No incluí cachés, secretos, builds ni originales del profesor.
-- [ ] Otro integrante revisó y aprobó este PR (dejar pendiente hasta que ocurra).
-- [ ] Actualicé la tarea correspondiente, si existe.
+- [ ] La rama destino es la correcta.
+- [ ] Actualicé el registro de cambios cuando corresponde.
+- [ ] El otro integrante revisó los cambios.

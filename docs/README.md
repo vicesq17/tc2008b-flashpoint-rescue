@@ -1,16 +1,18 @@
-# Documentación
+# Documentación y referencias
 
-- [Arquitectura preliminar](architecture.md)
-- [Propuesta de comunicación y estado JSON](json-contract.md)
-- [Ejemplo de estado](examples/game-state.example.json)
-- [Colaboración y flujo de ramas](../CONTRIBUTING.md)
+- [Arquitectura](architecture.md): qué hace Python y qué hace Unity.
+- [Datos JSON](json-contract.md): propuesta para compartir el estado.
+- [Ejemplo de estado](examples/game-state.example.json).
+- [Colaboración](../CONTRIBUTING.md): ramas y revisión entre integrantes.
 
-Referencia académica: Laboratorio 4 - Estructuración de Proyectos en Unity,
-consultado desde el PDF proporcionado por el usuario el 17 de noviembre de 2026.
-Se aplican sus recomendaciones de organización, prefabs, changelog y GitFlow.
-El PDF original no se copia al repositorio.
+## Material de referencia
 
-Pendientes para la primera iteración: acordar reglas y mapa, versión de Unity,
-responsabilidades, contrato JSON y criterios de prueba. La adaptación de Lab 2
-se basa en el contexto de la conversación; falta revisar Lab 1 antes de cerrar
-los detalles de implementación.
+**Laboratorio 4 - Estructuración de Proyectos en Unity**, material del curso
+TC2008B, consultado en el archivo `Grupos _ Plataforma académica.pdf`.
+Se usó como referencia para organizar las carpetas, trabajar con prefabs,
+registrar cambios y seguir el flujo de ramas y Pull Requests.
+El archivo original del profesor no forma parte del repositorio.
+
+**ChatGPT (OpenAI)** se utilizó únicamente como apoyo para la creación y
+organización inicial del repositorio. El desarrollo de la simulación y de la
+visualización corresponde al trabajo colaborativo del equipo.

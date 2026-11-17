@@ -1,22 +1,12 @@
-# Changelog
+# Registro de cambios
 
-Cambios relevantes por versión, con los más recientes primero.
-Se sigue el formato de Keep a Changelog y versionado semántico.
+## 0.0.1 - En preparación
 
-## [0.0.1] - UNRELEASED
+- Estructura inicial de Python/Mesa, Unity y documentación.
+- Guía de colaboración, ejemplo JSON y plantilla de Pull Requests.
+- Documentación simplificada con integrantes y referencias al laboratorio y a OpenAI.
+- Exclusión de cachés de Unity y archivos temporales de Python.
 
-### Added
+## 0.0.0 - 2026-11-17
 
-- Organización preliminar de Python/Mesa 3.5, visualización Unity 3D y documentos.
-- Arquitectura propuesta, ejemplo de estado JSON y acuerdos de colaboración.
-- Plantilla de Pull Requests y flujo feature -> pre-release -> main.
-
-### Changed
-
-- Reglas de Unity adaptadas a un proyecto dentro de `unity/` y exclusiones Python.
-
-## [0.0.0] - 2026-11-17
-
-### Added
-
-- Repositorio privado inicial con README y plantilla `.gitignore` de Unity.
+- Creación del repositorio con README y `.gitignore` de Unity.

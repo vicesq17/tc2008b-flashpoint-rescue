@@ -1,49 +1,22 @@
-# Visualización Unity 3D
+# Unity 3D
 
-Esta carpeta reserva el espacio para la visualización. Todavía no es un proyecto
-Unity ejecutable: no se han generado escenas, paquetes, ajustes ni archivos `.meta`.
+Aquí se creará la visualización del rescate. Todavía no hay un proyecto Unity
+ejecutable. Primero se acordará la versión del Editor y se creará un proyecto
+3D nuevo en `unity/FlashpointRescue/`.
 
-## Creación posterior
+## Organización prevista
 
-Crear con Unity Hub un proyecto 3D nuevo en `unity/FlashpointRescue/`, acordando
-primero la versión del Editor con el compañero. No importar ni modificar
-proyectos originales del profesor. Registrar aquí la versión exacta y el pipeline
-elegidos antes del primer PR de Unity.
+- `Assets/Scenes/`: escenas.
+- `Assets/Prefabs/`: cavernícolas, huevos y partes del escenario reutilizables.
+- `Assets/Art/` y `Assets/Materials/`: recursos visuales.
+- `Assets/Scripts/`: código separado en `Data`, `Domain`, `Framework` y `Utils`,
+  tomando como referencia el Laboratorio 4.
 
-## Estructura prevista en el proyecto nuevo
+En la escena se usarán los grupos `Managers`, `Setup`, `Environment`, `Canvases`
+y `Systems` propuestos en el laboratorio. Python llevará las reglas; Unity
+mostrará los estados recibidos.
 
-```text
-FlashpointRescue/
-  Assets/
-    Art/
-    Materials/
-    Prefabs/
-    Scenes/
-    Scripts/
-      Data/
-      Domain/
-      Framework/
-      Utils/
-  Packages/
-  ProjectSettings/
-```
-
-- `Data`: entidades de estado y servicios/repositorios de conexión HTTP/JSON.
-- `Domain`: casos de uso y coordinación de la visualización.
-- `Framework`: vistas, controladores y componentes de Unity.
-- `Utils`: utilidades compartidas.
-
-Python mantiene las reglas del rescate. Unity no debe duplicarlas.
-La adaptación del Lab 2 propone una entidad `GameState`, un `APIHelper` y un
-controlador que actualice objetos; el protocolo final está pendiente.
-
-## Escena y colaboración (Lab 4)
-
-Organizar la jerarquía en `Managers`, `Setup`, `Environment` (con `Units` cuando
-convenga), `Canvases` y `Systems`. Reservar `Systems` para objetos persistentes.
-Usar prefabs independientes para cavernícolas, huevos y entorno; acordar una
-persona integradora de la escena por iteración.
-
-Configurar Visible Meta Files y Force Text. Subir `Assets/` y sus `.meta`,
-`Packages/` y `ProjectSettings/`. La regla Unity de la raíz ya cubre cachés y builds
-dentro de subcarpetas. Ver también [colaboración](../CONTRIBUTING.md).
+Para colaborar, cada integrante trabajará sus prefabs y se coordinará la
+integración de la escena. Se usará Visible Meta Files y Force Text, conservando
+los `.meta`, `Packages/` y `ProjectSettings/` en Git. Las cachés y builds quedan
+excluidas por `.gitignore`.

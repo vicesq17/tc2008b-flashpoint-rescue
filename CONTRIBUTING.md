@@ -1,44 +1,24 @@
-# Colaboración
+# Cómo colaborar
 
-## Flujo del Laboratorio 4
+El proyecto se trabaja entre `vicesq17` y Luis Fernando Tena (`LuisFer753`).
 
-1. `main` conserva la base estable; no trabajar directamente aquí.
-2. `pre-release-0.0.1` integra la primera iteración.
-3. Crear desde esa rama una rama corta por funcionalidad, por ejemplo
-   `pre-release-0.0.1.2-feature-mesa-model` o
-   `pre-release-0.0.1.3-feature-unity-prefabs`.
-4. Hacer commits pequeños, actualizar `CHANGELOG.md` y sincronizar con la rama
-   de integración antes de abrir el PR.
-5. Abrir PR de la rama feature hacia `pre-release-0.0.1`. Verificar la dirección,
-   describir cambios y pruebas, y pedir revisión al otro integrante.
-6. Tras integrar y validar la iteración, abrir PR de `pre-release-0.0.1` hacia
-   `main`. La fecha de release y la etiqueta se agregan al liberar una versión.
+## Ramas y revisiones
 
-La estructura inicial se propone en
-`pre-release-0.0.1.1-feature-project-structure`. No es una versión liberada.
-No marcar una revisión de otra persona como realizada si sigue pendiente.
+1. Partir de `pre-release-0.0.1`, la rama de integración de esta iteración.
+2. Crear una rama por tarea, por ejemplo `pre-release-0.0.1.2-feature-mesa-model`.
+3. Hacer cambios pequeños y registrar los relevantes en `CHANGELOG.md`.
+4. Actualizar la rama con los cambios de integración y abrir un PR hacia
+   `pre-release-0.0.1` para que el otro integrante lo revise.
+5. Cuando la iteración esté probada, integrar `pre-release-0.0.1` en `main`
+   mediante otro PR. `main` conserva las versiones estables.
 
-## Unity
+Este flujo se toma como referencia del Laboratorio 4.
 
-- Acordar quién integra la escena principal en cada iteración.
-- Repartir prefabs (cavernícolas, huevos y entorno) por tarea, sin asignar
-  integrantes hasta acordarlo juntos.
-- Editar cada prefab en Prefab Mode para reducir cambios a la escena compartida.
-- Usar la misma versión del Editor; registrarla cuando se cree el proyecto real.
-- Configurar Visible Meta Files y Force Text en el proyecto nuevo. Versionar
-  `Assets/` con sus `.meta`, `Packages/` y `ProjectSettings/`.
-- Evitar editar a la vez la misma escena o prefab y no resolver conflictos
-  borrando archivos `.meta`. No subir cachés ni builds.
+## Trabajo en Unity
 
-## Incorporación del compañero
+- Acordar quién integra la escena y qué prefab trabaja cada integrante.
+- Editar los prefabs por separado para evitar cambios simultáneos a la escena.
+- Usar la misma versión de Unity y conservar los archivos `.meta`.
+- Versionar `Assets/`, `Packages/` y `ProjectSettings/`; excluir cachés y builds.
 
-Pendiente: el usuario debe proporcionar su nombre de usuario de GitHub.
-Después se podrá enviar una invitación al repositorio privado. No se ha enviado
-ninguna invitación ni se ha supuesto una identidad.
-
-## Alcance
-
-Trabajar únicamente en este repositorio nuevo. Consultar los laboratorios como
-referencia sin modificar ni subir los originales del profesor. Mantener la
-simulación y la comunicación en local; cualquier servicio de pago queda fuera
-del proyecto preliminar.
+El material del profesor se consulta como referencia y no se modifica.
