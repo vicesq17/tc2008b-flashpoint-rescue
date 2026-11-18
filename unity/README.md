@@ -1,14 +1,20 @@
 # Unity 3D
 
-Aquí se creará la visualización del rescate. Todavía no hay un proyecto Unity
-ejecutable. Primero se acordará la versión del Editor y se creará un proyecto
-3D nuevo en `unity/FlashpointRescue/`.
+Aquí se incorporará la visualización del rescate. Todavía no hay un proyecto
+Unity ejecutable en Git. El Google Doc del equipo ya describe un avance visual:
+se debe importar ese proyecto existente en `unity/FlashpointRescue/`, conservando
+su versión del Editor, paquetes, assets y archivos `.meta`.
+
+Seguir la [guía para Luis](../docs/unity-onboarding.md). Crear un proyecto nuevo
+solo si el equipo confirma que no existe el avance original.
 
 ## Organización prevista
 
 - `Assets/Scenes/`: escenas.
 - `Assets/Prefabs/`: cavernícolas, huevos y partes del escenario reutilizables.
-- `Assets/Art/` y `Assets/Materials/`: recursos visuales.
+- `Assets/Models/`, `Assets/Materials/`, `Assets/Textures/` y `Assets/Music/`:
+  recursos visuales y sonido, siguiendo los ejemplos del laboratorio. Las carpetas
+  propias de paquetes externos pueden conservarse.
 - `Assets/Scripts/`: código separado en `Data`, `Domain`, `Framework` y `Utils`,
   tomando como referencia el Laboratorio 4.
 

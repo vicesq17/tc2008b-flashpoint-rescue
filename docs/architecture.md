@@ -15,5 +15,8 @@ En Unity se tomarán como referencia las carpetas `Data`, `Domain`, `Framework`
 y `Utils` del Laboratorio 4. Los objetos se organizarán en prefabs para que
 cada integrante pueda trabajar su parte.
 
-Falta acordar las reglas y el mapa, la versión de Unity y los detalles de la
-comunicación antes de implementar. Ver [propuesta JSON](json-contract.md).
+El [documento de avance](https://docs.google.com/document/d/1CgF76q8ODBcBNcsgTugBptV36PMenR7l90USv5Lfjoo/edit?usp=sharing)
+contiene las decisiones y propuestas actuales del juego. La versión exacta de
+Unity debe tomarse del `ProjectSettings/ProjectVersion.txt` del proyecto que se
+incorpore. Falta validar el mapa y las reglas en código y cerrar el contrato de
+comunicación. Ver [propuesta JSON](json-contract.md) y [plan cliente/servidor](client-server.md).
