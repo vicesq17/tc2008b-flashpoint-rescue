@@ -1,2 +1,1 @@
-# Mantener la serie 3.5 acordada para el curso.
 mesa==3.5.0

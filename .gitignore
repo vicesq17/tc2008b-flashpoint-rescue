@@ -1,7 +1,4 @@
 # Unity template adapted for this repository: Unity lives under unity/.
-# Lab 4: avoid leading / so generated folders are ignored in nested projects.
-# **/ also matches nested paths such as unity/FlashpointRescue/Library/.
-# Keep source Assets, their normal .meta files, Packages and ProjectSettings.
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
