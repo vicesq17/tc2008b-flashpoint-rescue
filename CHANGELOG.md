@@ -1,6 +1,12 @@
 # Registro de cambios
 
-## [0.0.1] - UNRELEASED
+## [0.0.2] - UNRELEASED
+
+### Fixed
+
+- Corregidas las instancias de los muros del tablero donde no estaban asociadas al prefab definido.
+
+## [0.0.1] - RELEASED 2026-11-21
 
 ### Added
 
